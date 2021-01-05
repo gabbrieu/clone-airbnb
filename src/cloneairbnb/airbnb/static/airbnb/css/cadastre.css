@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url('../fonts/poppins/Poppins-Medium.ttf'); 
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+  }
+
+body{
+    font-size: 90%;
+    font-family: Poppins-Regular, sans-serif;
+}
+
+#limitador{
+    width: 100%;
+    margin: 0 auto;
+}
+
+#corpo{
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #f2f2f2;
+}
+
+#formulario{
+    padding: 77px 55px 77px 55px;
+    width: 500px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+#botao-formulario{
+    font-size: 89%;
+    font-family: Poppins-Medium;
+    text-transform: uppercase;
+    background: rgb(255, 56, 92);
+    color: #fff;
+    height: 40px;
+}
+
+#entrar{
+    color: #666666;
+    font-size: 85%;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+#entrar a{
+    color: #333333;
+    text-decoration: none;
+}
+
+#entrar a:hover{
+    color: #6a7dfe;
+}
+
+@media (max-width: 910px){
+    #corpo{
+        max-width: 70%;
+    }
+}
+
+@media (max-width: 600px){
+    #corpo{
+        max-width: 100%;
+    }
+}
