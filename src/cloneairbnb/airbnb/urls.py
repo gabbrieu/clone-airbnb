@@ -9,4 +9,5 @@ urlpatterns = [
     path('', auth_views.LoginView.as_view(template_name='airbnb/index.html'), name='login'),
     path('logout/', auth_views.LogoutView.as_view(template_name='airbnb/logout.html'), name='logout'),
     path('cadastro/', views.cadastro, name='cadastro'),
+    path('homepage/', views.homepage, name='homepage'),
 ]

@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url('../fonts/poppins/Poppins-Medium.ttf'); 
+}
+
+nav a{
+    font-family: Poppins-Medium;
+    color: rgb(27, 27, 27);
+}
+
+nav a:hover{
+    color: rgb(27, 27, 27);
+}

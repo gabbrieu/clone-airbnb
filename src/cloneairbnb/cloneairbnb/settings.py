@@ -128,4 +128,5 @@ STATIC_URL = '/static/'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
-LOGIN_REDIRECT_URL = 'airbnb:cadastro'
+LOGIN_REDIRECT_URL = 'airbnb:homepage' #Página para qual a pessoa será redirecionada após fazer o login
+LOGIN_URL = 'airbnb:login' #URL da página de login para evitar alguns erros
