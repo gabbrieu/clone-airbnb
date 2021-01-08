@@ -5,11 +5,15 @@
     src: url('../fonts/poppins/Poppins-Medium.ttf'); 
 }
 
+nav {
+    background-color: rgb(255, 56, 92);
+}
+
 nav a{
     font-family: Poppins-Medium;
-    color: rgb(27, 27, 27);
+    color: white;
 }
 
 nav a:hover{
-    color: rgb(27, 27, 27);
+    color: white;
 }
