@@ -17,3 +17,17 @@ nav a{
 nav a:hover{
     color: white;
 }
+
+.container{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#marca-footer{
+    font-family: Poppins-Medium;
+    font-size: 13px;
+}
+
+#logo-footer{
+    height: 20px;
+}
